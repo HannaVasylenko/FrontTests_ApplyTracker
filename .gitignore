@@ -1,3 +1,14 @@
+# Ignore specific files in the main folder
+/pytest.ini
+/settings.py
+/secure.json
+
+# Ignore user_config.json inside the tests folder
+/tests/user_config.json
+
+# Ignore all report.txt files in any folder
+**/report.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
