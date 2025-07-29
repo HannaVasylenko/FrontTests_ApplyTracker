@@ -2,12 +2,16 @@
 /pytest.ini
 /settings.py
 /secure.json
+/generate_diagram.py
 
 # Ignore user_config.json inside the tests folder
 /tests/user_config.json
 
 # Ignore all report.txt files in any folder
 **/report.txt
+
+# Ignore all __pycache__ folders everywhere
+**/__pycache__/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
